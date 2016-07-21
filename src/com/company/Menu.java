@@ -16,8 +16,7 @@ public class Menu {
         initializeaccount();
         while(true){
         System.out.println("Banking System");
-        System.out.println("1.Create Account");
-        System.out.println("2.Account Detail");
+        System.out.println("1.Create Account\n2.Account Detail\n3.Exit");
         System.out.println("Select Any One : ");
         int get = getval.nextInt();
         boolean pause=false;
@@ -75,7 +74,7 @@ public class Menu {
       private void Accountlogin(){
       System.out.println("Name : ");
       String name =  getval.next();
-      System.out.println("Account Number :");
+      System.out.println("Account Number : 111-000-");
       int num = getval.nextInt();
       if(Find(name,num)){
       AccoutnMenu();
